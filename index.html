@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Prompt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-label">✦ Prompt Siap Pakai</div>
+    <h1>Toko Prompt</h1>
+    <p>Koleksi prompt premium — tinggal copy, langsung hasil maksimal</p>
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-number">3+</div>
+        <div class="stat-label">Prompt tersedia</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Siap pakai</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">WA</div>
+        <div class="stat-label">Pembelian cepat</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="grid-prompt"></div>
+  </main>
+
+  <footer>
+    © 2025 Toko Prompt · Semua prompt dibuat dengan ❤
+  </footer>
+
+  <!-- Modal -->
+  <div id="modal" onclick="tutupModal(event)">
+    <div class="modal-box">
+      <button class="tutup" onclick="tutupModal()">✕</button>
+      <span id="modal-kategori" class="badge"></span>
+      <h2 id="modal-nama"></h2>
+      <p id="modal-deskripsi"></p>
+      <ul id="modal-manfaat"></ul>
+      <div class="modal-bawah">
+        <span id="modal-harga"></span>
+        <a id="tombol-beli" href="#" target="_blank" class="beli">Beli Sekarang →</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
